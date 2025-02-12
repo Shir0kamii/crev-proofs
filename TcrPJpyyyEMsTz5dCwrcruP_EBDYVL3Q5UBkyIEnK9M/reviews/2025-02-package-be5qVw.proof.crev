@@ -1,0 +1,30 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-02-12T13:45:47.423579838+01:00
+from:
+  id-type: crev
+  id: TcrPJpyyyEMsTz5dCwrcruP_EBDYVL3Q5UBkyIEnK9M
+  url: https://github.com/Shir0kamii/crev-proofs
+package:
+  source: https://crates.io
+  name: cfg-if
+  version: 1.0.0
+  revision: e60fa1efeab0ec6e90c50d93ec526e1410459c23
+  digest: YmRVto2mw7U7GJhrOe13k_5Sgg9TcQWK1NuLN2Qiz5E
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  A very simple crate hosted by rust-lang and containing a single macro-by-example.
+  
+  No release since 2020 but a dependabot MR was merged 4 months ago. Not sure if this
+  should be considered unmaintained.
+  
+  `cargo test` does not work on latest rust (1.84) because of new lints added since last release,
+  but it does work on 1.46 (latest stable at the time of last release).
+----- SIGN CREV PROOF -----
+s00wVL6UgNz0qeTmBn6mMwlztx2gFp2v3Xdak53mX7ts3Al4reynXqJw7OzQgrSXSQpjftxR7mF7dJIU6dXqDw
+----- END CREV PROOF -----
+
