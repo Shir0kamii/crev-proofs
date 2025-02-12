@@ -16,3 +16,21 @@ comment: |-
 Vqw3zI7AlSKR_Du6p57rhFZjIgcgzeQUg3HD87fuSJv3J0t4UEt7ifpLa1od9edDltY07zK-ZfR_WslWnvzsBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: 2025-02-12T12:23:14.763940685+01:00
+from:
+  id-type: crev
+  id: TcrPJpyyyEMsTz5dCwrcruP_EBDYVL3Q5UBkyIEnK9M
+ids:
+- id-type: crev
+  id: VylyTuk8CMGqIxgHixWaqfiUn3xZyzOA1wFrQ0sR1As
+  url: https://github.com/BurntSushi/crev-proofs
+trust: high
+comment: |-
+  Widely known member of the rust community.
+----- SIGN CREV PROOF -----
+3qayOsYFu62LG4hfPLL633J--HHG5dBw1N4u1LAt7ftyctknE2q7_u3oqDOhwlM3KB1hTl3F-U1enEQ3HC9hCQ
+----- END CREV PROOF -----
+
