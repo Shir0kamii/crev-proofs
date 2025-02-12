@@ -1,0 +1,18 @@
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: 2025-02-12T12:21:47.844132719+01:00
+from:
+  id-type: crev
+  id: TcrPJpyyyEMsTz5dCwrcruP_EBDYVL3Q5UBkyIEnK9M
+ids:
+- id-type: crev
+  id: VylyTuk8CMGqIxgHixWaqfiUn3xZyzOA1wFrQ0sR1As
+  url: https://github.com/BurntSushi/crev-proofs
+trust: medium
+comment: |-
+  Widely known member of the rust community
+----- SIGN CREV PROOF -----
+Vqw3zI7AlSKR_Du6p57rhFZjIgcgzeQUg3HD87fuSJv3J0t4UEt7ifpLa1od9edDltY07zK-ZfR_WslWnvzsBg
+----- END CREV PROOF -----
+
