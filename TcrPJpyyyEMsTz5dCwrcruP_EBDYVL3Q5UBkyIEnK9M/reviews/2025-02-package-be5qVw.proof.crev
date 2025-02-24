@@ -28,3 +28,29 @@ comment: |-
 s00wVL6UgNz0qeTmBn6mMwlztx2gFp2v3Xdak53mX7ts3Al4reynXqJw7OzQgrSXSQpjftxR7mF7dJIU6dXqDw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-02-24T21:32:39.772308702+01:00
+from:
+  id-type: crev
+  id: TcrPJpyyyEMsTz5dCwrcruP_EBDYVL3Q5UBkyIEnK9M
+  url: https://github.com/Shir0kamii/crev-proofs
+package:
+  source: https://crates.io
+  name: once_cell
+  version: 1.20.2
+  revision: 4fbd4a53509ca59c8e09efc2ab0a22f21de70f7e
+  digest: eNwrvzV_0KGDHiU82qhW3PHql85vs9oBOFoLAW7JYTU
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+comment: |-
+  A great crate sprinkled with unsafe code.
+  
+  I reviewed the three implementations of `sync::OnceCell`, and all of them seem to be sound.
+----- SIGN CREV PROOF -----
+7opzKQb7REh1NuPnRofhlOilqjpGVzH_1GTnEiAldQz1QKBvZgxJjtNJTKk6kB2cnNcVblkl8Lwq9DvCydfnDQ
+----- END CREV PROOF -----
+
