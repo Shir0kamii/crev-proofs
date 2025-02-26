@@ -54,3 +54,42 @@ comment: |-
 7opzKQb7REh1NuPnRofhlOilqjpGVzH_1GTnEiAldQz1QKBvZgxJjtNJTKk6kB2cnNcVblkl8Lwq9DvCydfnDQ
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2025-02-26T20:22:26.343306692+01:00
+from:
+  id-type: crev
+  id: TcrPJpyyyEMsTz5dCwrcruP_EBDYVL3Q5UBkyIEnK9M
+  url: https://github.com/Shir0kamii/crev-proofs
+package:
+  source: https://crates.io
+  name: num-traits
+  version: 0.2.19
+  revision: 7ec3d41d39b28190ec1d42db38021107b3951f3a
+  digest: G5kM1-75iQi3jHV9Jkr7WEDQGvZKQgSABPd6vf9ZnJE
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+comment: |-
+  The de facto crate for traits about numbers and their operations.
+  
+  The documentation is great with a few exceptions (e.g. the byte traits).
+  The tests are decent, both in quality and quantity, but could be improved.
+  It uses a very simple build script that is safe.
+  
+  It uses `macro_rule` a lot, hindering readability in places, but greatly
+  reducing the verbosity. I find that it tends to stay manageable.
+  
+  It is still maintained, but it is clear the maintainer and the few people
+  helping him are having a hard time keeping up with issues and PRs.
+  
+  The only things I didn't review are the `decode_integer`/`total_cmp` functions
+  in the `float` module and the `reverse_bits_fallback` function in the `int`
+  module. I don't know enough about floating-point arithmetic and bit manipulation
+  to understand them.
+----- SIGN CREV PROOF -----
+m06LPz70O6y_pZgxbBa1TJCNFkCW0ff9NzJDFDs4GSuvplv3ZGK4PaDMOdSXAbRoadZzuo6epWEPME-CZdfiBw
+----- END CREV PROOF -----
+
